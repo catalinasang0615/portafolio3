@@ -1,0 +1,737 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999545" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="788.6560906467873" scrolly="-414.5743124546955" scale="0.9">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="cwn+sH2Rk-3o2o|0P%_s">click</variable>
+      <variable id="CRb{j4pat4r1omIWLn8c">videoCelular</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="B#ql=gKmt6IKYokE`jN;" inline="false" x="-730" y="-610">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="Yq[nX[YTS{7~Q`YW4o`G">
+          <field name="FIELDNAME">boton1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="22Yz*dVY,K`9zXi%N/e#">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="4r;]P{%u)9qVhg`6k#Tj">
+              <field name="FIELDNAME">camlook1</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="Bd$kjGPmOXn;Mb:bw*{7">
+              <field name="FIELDNAME">1</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="E!O=tU*6,];=*{l^ZJn$">
+              <field name="NUM">4</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="Q8m+pm9WiAtxf{qfW-J`" inline="false" x="90" y="-630">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="nQi~Texao[C7x0Gb3#4J">
+          <field name="FIELDNAME">boton9</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="KYJTP~HM/]VCWnjMV9^E">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="JQAZ4B8{Ar;$b3Y+y_n-">
+              <field name="FIELDNAME">camlook9</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="@/ooVLK6l5xbiE}]8yJ2">
+              <field name="FIELDNAME">9</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="G(n4?zvoGstc`2wO/X_@">
+              <field name="NUM">4</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="Yv#?d:G;QCefWPycijmw" inline="false" x="-750" y="-490">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="LS$Q[`3bJP`7Co0$F,ox">
+          <field name="FIELDNAME">boton2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="5OrY``g)PBI1UW92QU4g">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="A,y;G$CLz%ix;5ev4gOy">
+              <field name="FIELDNAME">camlook2</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="D4@:#5KY9tq]ne%6BI:#">
+              <field name="FIELDNAME">2</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="Y%0O.*~UPe1#3TYNhm7/">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="KXOpxDo|Uu[UwSH?_I5{" inline="false" x="-750" y="-330">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id=",$2zQ]jJn^?);qGxB)@}">
+          <field name="FIELDNAME">boton3</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="j)]RBAgtXqB?{Mv4Td@Z">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="gxL#t]mUc@{$zm)6E:;~">
+              <field name="FIELDNAME">camlook3</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="LT|E7xb/Dsc]lN0xWSwC">
+              <field name="FIELDNAME">3</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="ks;I#J}]b`ix7x3Qo@?*">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="8_s5cpbB52HTczJXy}`%" inline="false" x="90" y="-310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="_3]6)0FJ,)ZF*mTLGox!">
+          <field name="FIELDNAME">boton10</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="J/wu!1EyYgF:K25/}_=r">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="jY;A=}:$H?8+*Trjf2Zp">
+              <field name="FIELDNAME">camlook10</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="1O@iJfnnh23FmARu]5s)">
+              <field name="FIELDNAME">10</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="T(|H9)i=.4#WwB_a6{_!">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="|2a7T2PTzvqnl!1xn=Dh" inline="false" x="110" y="-190">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="jn]fCyD0~#?Z,1S7w.rP">
+          <field name="FIELDNAME">boton11</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="kXO%IaQ|ZKN6M]Elg[i2">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="{PkGhA*q?F}HKAcP=`jI">
+              <field name="FIELDNAME">camlook11</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="L#N^^Htj,{TJs/32OnQe">
+              <field name="FIELDNAME">11</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="(11sO)w7ifQZu5p22cnN">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="1p$~/5o()j_%0i`(Zf3X" inline="false" x="-770" y="-90">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="ob2b=59a!*j.7(*c;LTP">
+          <field name="FIELDNAME">boton4</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="bWZc3EwC]./:0F/[Mz:.">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="]DhAbI5l`-,4/e#?UVqo">
+              <field name="FIELDNAME">camlook4</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="gk_$JflvIWFZ`f|0(9~J">
+              <field name="FIELDNAME">4</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="~cx2Q4ZA`5|w:!#28ccC">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id=";8I%V[g}ifY;sp*:M{(S" inline="false" x="110" y="-70">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="8Y{|UxQY5!=89;Ra3a$%">
+          <field name="FIELDNAME">boton12</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="SP`}@l$_i,|kOTWY.%v8">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="$[LUlcYcHsl1C9AE^Y(X">
+              <field name="FIELDNAME">camlook12</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id=")2^w$`P3bci[$T_.GRz:">
+              <field name="FIELDNAME">Plane.002</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="b]O_JQI{C74m_6Tgcu^h">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="%#qI`uSW1c[+3mt|RYei" inline="false" x="-770" y="30">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="2D`|dYj%cp8+PVKXL[,0">
+          <field name="FIELDNAME">boton5</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="KAuuT71D^Qa991]qP}^-">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="1)@Z1bE?sOA(;WJM7bfS">
+              <field name="FIELDNAME">camlook5</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="%.t=1X~Kul;kS%X~ZrI?">
+              <field name="FIELDNAME">Plane.001</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="Q7ZC=oIa|E-vRF_};Mm[">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="bG58phjo#z6?;FtWnLde" inline="false" x="130" y="50">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="({QdMmGr;08R|X|qKCRc">
+          <field name="FIELDNAME">boton13</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="4rDB=U%S521q@#G?[-vT">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="lXGEP%jyGN`cce}#t_Cz">
+              <field name="FIELDNAME">camlook13</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="#^ebPRm^JOi]W5I0S4,E">
+              <field name="FIELDNAME">13</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="ixT0LJ).,VZ*I;*RF,4?">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="=ZM%!m5=B9?vv[2*rW;~" inline="false" x="-770" y="150">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="C6(7^Fb-:p@hfrY=1i^i">
+          <field name="FIELDNAME">boton6</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="+7LMH%VLf3_--8Vp|e#w">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="y0:q@[0$6XDQw=djU#;@">
+              <field name="FIELDNAME">camlook6</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="]HZ$nf,_mQf7uY84Dl`q">
+              <field name="FIELDNAME">6</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="L+[(jAbBpHI6it=%6/T$">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="Zs5L$56w350oG3z=Cx/e" inline="false" x="130" y="170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="?qtTL[%#Cd2MfN[Eg:E2">
+          <field name="FIELDNAME">boton14</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="l7)F]#M/HxV%LINKY25}">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="1p42WlWYk]|}zaNrvWM)">
+              <field name="FIELDNAME">camlook14</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="Lw8r;B:KN%w76)8iy;H;">
+              <field name="FIELDNAME">14</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="vwPEa4QA8*:v2@fi8Omi">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="fEzo/0cR59W=g%q-vXr5" inline="false" x="-770" y="270">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="u|U^9dsCJCTb2=XXf^)f">
+          <field name="FIELDNAME">boton7</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="cmroOk=I^8yje!WKG4]_">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id=")X~.eI!)`wnNEK8j!ojB">
+              <field name="FIELDNAME">camlook7</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="%0[Ky|05j#IdC!gI!L-7">
+              <field name="FIELDNAME">7</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="u/OLw#pDWI^MK?-MKHRr">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="YK08KeIo$wZ^)}G`h,Ru" inline="false" x="170" y="310">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id=".{`{Ui_!_$NagJIDA1+5">
+          <field name="FIELDNAME">boton15</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="],]*fIqf6Jk$sr)tluY~">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="|1v$x70i=/3$mG#ANBpj">
+              <field name="FIELDNAME">camlook15</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="egy)o!9^BWkIa(|.di$c">
+              <field name="FIELDNAME">15</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="5rLMs_WP+xPVkq2FBq;:">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="!1ZA73/P.aJ;9i,{A_5v" inline="false" x="-770" y="410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="V/haJ.QjskCaOB`Wc)/y">
+          <field name="FIELDNAME">boton8</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="nFi3TzxApw(#lA5*jW5d">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="Liu$M#q0-k`,x7!m8hOv">
+              <field name="FIELDNAME">camlook8</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="?Sda6,;CM5:5a}2(m@P_">
+              <field name="FIELDNAME">8</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="fz1tTW~~L#V9/kYb0%;G">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="$!F%[EZ!aT[FOo45AcV[" inline="false" x="150" y="430">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="V}w.%X3*0j}PQlAt%$Wp">
+          <field name="FIELDNAME">boton16</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="1za[_2?f33M)|3b*z5:$">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">LINEAR</field>
+          <value name="POSITION">
+            <block type="objectList" id="eJt$[$hV!)tGS|S:p*%d">
+              <field name="FIELDNAME">camlook16</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="cNTb@%|uUgQ2xopnvM:b">
+              <field name="FIELDNAME">16</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="A8(2J3@9Ls(;9Nzt@uBs">
+              <field name="NUM">5</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenHovered" id="0||}#m2xV:h:bAF,}bYr" inline="false" x="-790" y="570">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="qY0KC-BIg2|n3:_ret!2">
+          <field name="FIELDNAME">Plane.002</field>
+        </shadow>
+      </value>
+      <statement name="DO_OVER">
+        <block type="setHTMLElemStyle" id="Mxpah(z?]cSxxG!Phlxo">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="cursorDropdown" id="U3d1{}0*^Vgr}$A/8J=i">
+              <field name="TEXT">pointer</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="cQqH4$hbZHsXlzVs#~pX">
+              <field name="TEXT">myElem</field>
+            </shadow>
+            <block type="DOMObjectSelector" id="B_xRl86|bGCg)~WPF()b">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <statement name="DO_OUT">
+        <block type="setHTMLElemStyle" id="+AA]m$M$|XqFX)H53?R|">
+          <field name="PROPERTY">cursor</field>
+          <field name="PARENT">FALSE</field>
+          <value name="VALUE">
+            <shadow type="cursorDropdown" id="Wc-}e8xQX25E.gG?CAP-">
+              <field name="TEXT">default</field>
+            </shadow>
+          </value>
+          <value name="ID">
+            <shadow type="text" id="cQqH4$hbZHsXlzVs#~pX">
+              <field name="TEXT">myElem</field>
+            </shadow>
+            <block type="DOMObjectSelector" id="HOEg9?)!5?29F=2MHe5x">
+              <field name="DOM_OBJECT">BODY</field>
+            </block>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="variables_set" id="wXWf]syFO#o*[/Uua*X]">
+          <field name="VAR" id="cwn+sH2Rk-3o2o|0P%_s">click</field>
+          <value name="VALUE">
+            <block type="text" id="@B)e7i.F1t25{z{L.8#$">
+              <field name="TEXT">ON</field>
+            </block>
+          </value>
+          <next>
+            <block type="variables_set" id="?$41VT(sCk`N0^N2]A;6">
+              <field name="VAR" id="CRb{j4pat4r1omIWLn8c">videoCelular</field>
+              <value name="VALUE">
+                <block type="loadVideo" id="@{ZIlvCJ]AEE$d!j^)v4">
+                  <value name="URL">
+                    <shadow type="text" id="]JWoM|LkD(_8h|}8N3KA">
+                      <field name="TEXT">https://raw.githack.com/catalinasang0615/video6/main/WhatsApp%20Video%202025-12-09%20at%2010.18.12%20PM.mp4</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+              <next>
+                <block type="whenClicked" id="k71B9Q{*`znI7pY^og`#" inline="false">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+                  <field name="X_RAY">FALSE</field>
+                  <field name="DOUBLE_CLICK">FALSE</field>
+                  <field name="LEFT_BUTTON">TRUE</field>
+                  <field name="MIDDLE_BUTTON">TRUE</field>
+                  <field name="RIGHT_BUTTON">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="objectList" id="A{`bhE0L8jB)9+W/i2YQ">
+                      <field name="FIELDNAME">Plane.002</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="controls_ifelse" id="K`}()Z1IEb?e2Mo6eF~[">
+                      <value name="IF0">
+                        <block type="logic_compare" id="xW*p8SG.+=j6lkM)=aa;">
+                          <field name="OP">EQ</field>
+                          <value name="A">
+                            <block type="variables_get" id="]ftf_|G)P[C*$02H].^X">
+                              <field name="VAR" id="cwn+sH2Rk-3o2o|0P%_s">click</field>
+                            </block>
+                          </value>
+                          <value name="B">
+                            <block type="text" id="y1[k;yt.W/U}#t6eh`Wn">
+                              <field name="TEXT">ON</field>
+                            </block>
+                          </value>
+                        </block>
+                      </value>
+                      <statement name="DO0">
+                        <block type="replaceTexture" id="n?E7%FgqL4bo_+IZyfR{">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="true" flextexinput="false" notexsharing="false"></mutation>
+                          <field name="OLD_TEX_NAME">pantalla.jpg.001</field>
+                          <value name="MATERIAL">
+                            <shadow type="materialList" id="Js/wY]r)#V_9Dg0]uHQX">
+                              <field name="FIELDNAME">Material.004</field>
+                            </shadow>
+                          </value>
+                          <value name="NEW_TEX_URL">
+                            <shadow type="text" id="4P|/00TUs}5v*7;Nem3_">
+                              <field name="TEXT">newTexture.png</field>
+                            </shadow>
+                            <block type="variables_get" id="DTYP4}6e;5hU:V!]ReUR">
+                              <field name="VAR" id="CRb{j4pat4r1omIWLn8c">videoCelular</field>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="playSound" id="NNfQuepcdv$!^HjRAHRS">
+                              <field name="LOOP">TRUE</field>
+                              <value name="VALUE">
+                                <block type="variables_get" id="TTkeJEe2B7P=)VcHKoSH">
+                                  <field name="VAR" id="CRb{j4pat4r1omIWLn8c">videoCelular</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="variables_set" id="cOab.WfB1vO-Qk,Z@-Eq">
+                                  <field name="VAR" id="cwn+sH2Rk-3o2o|0P%_s">click</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="=5$o4dL.Cf?oiHMzP3UT">
+                                      <field name="TEXT">OFF</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </statement>
+                      <statement name="ELSE">
+                        <block type="replaceTexture" id="Z*H@g5Vi*u(vFna55bjH">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="true" flextexinput="false" notexsharing="false"></mutation>
+                          <field name="OLD_TEX_NAME">pantalla.jpg.001</field>
+                          <value name="MATERIAL">
+                            <shadow type="materialList" id="C9D?TUw,xh-*?(N!gfhx">
+                              <field name="FIELDNAME">Material.004</field>
+                            </shadow>
+                          </value>
+                          <value name="NEW_TEX_URL">
+                            <shadow type="text" id="4P|/00TUs}5v*7;Nem3_">
+                              <field name="TEXT">newTexture.png</field>
+                            </shadow>
+                            <block type="variables_get" id="_a9bvU7HPbV]Pwt}z(Ap">
+                              <field name="VAR" id="CRb{j4pat4r1omIWLn8c">videoCelular</field>
+                            </block>
+                          </value>
+                          <statement name="DO">
+                            <block type="pauseSound" id="SjK#!``9UK.,HM6%cWO.">
+                              <value name="VALUE">
+                                <block type="variables_get" id="WBp|]{|bq[Ng+Z=,2=4D">
+                                  <field name="VAR" id="CRb{j4pat4r1omIWLn8c">videoCelular</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="variables_set" id="@u(+zF/(C.RA7cK)mDEH">
+                                  <field name="VAR" id="cwn+sH2Rk-3o2o|0P%_s">click</field>
+                                  <value name="VALUE">
+                                    <block type="text" id="^!NRmxuaH^oA;s]gpr8k">
+                                      <field name="TEXT">ON</field>
+                                    </block>
+                                  </value>
+                                </block>
+                              </next>
+                            </block>
+                          </statement>
+                        </block>
+                      </statement>
+                    </block>
+                  </statement>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="false" scrollx="0" scrolly="0" scale="0.9"></tab>
+  <editorsettings viewport-x="917.3333679199218" viewport-y="36.33332824707031" viewport-w="300" viewport-h="466.833" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
